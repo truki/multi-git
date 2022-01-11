@@ -12,15 +12,15 @@ import (
 func main() {
 	// command flag
 	command := flag.String(
-		"command", 
-		"", 
-		"The git command"
+		"command",
+		"",
+		"The git command",
 	)
 	// ignoreError flag with typo error by the way
 	ignoreErros := flag.Bool(
 		"ignore-errors",
 		false,
-		"Keep running after error if true"
+		"Keep running after error if true",
 	)
 	//Parsing all the flags
 	flag.Parse()
